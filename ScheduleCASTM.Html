@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .schedule {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .shift {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .shift:last-child {
+            border-bottom: none;
+        }
+        .shift h2 {
+            margin-top: 0;
+            color: #007BFF;
+        }
+        .tasks {
+            list-style-type: none;
+            padding: 0;
+        }
+        .tasks li {
+            margin: 8px 0;
+            padding: 8px;
+            background-color: #e7f3ff;
+            border: 1px solid #b3d8ff;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Employee Schedule</h1>
+    <div class="schedule">
+        <div class="shift">
+            <h2>Team Shift: 8:30 - 16:30</h2>
+            <ul class="tasks">
+                <li>9:30 - Warm Up</li>
+                <li>10:00 - First Set</li>
+                <li>10:30 - Break</li>
+                <li>11:00 - Second Set</li>
+                <li>11:30 - Lunch</li>
+                <li>13:30 - Third Set</li>
+                <li>14:00 - Break</li>
+                <li>14:30 - Fourth Set</li>
+                <li>15:00 - Returns to Main House</li>
+                <li>16:00 - Give Back Costume</li>
+            </ul>
+        </div>
+        <!-- Add more shifts below -->
+        <div class="shift">
+            <h2>Team Shift: 9:00 - 17:00</h2>
+            <ul class="tasks">
+                <li>10:00 - Morning Meeting</li>
+                <li>11:00 - First Task</li>
+                <li>12:00 - Break</li>
+                <li>12:30 - Continue Tasks</li>
+                <li>15:00 - Wrap Up</li>
+                <li>17:00 - End of Day</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
